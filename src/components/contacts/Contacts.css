@@ -9,7 +9,7 @@
 input{
     width: 100%;
     box-sizing: border-box;
-    padding: 5px;
+    padding: 7px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     border-radius: 3px;
@@ -51,11 +51,16 @@ ul,li{
     color: black;
     border: none;
     outline: none;
+    font-weight: 500;
+
 }
 
 .btn button:hover{
-    background-color:#4cd137;
+    background-color:#273c75;
     cursor: pointer;
     color: white;
+}
+
+.total{
     font-weight: 500;
 }
