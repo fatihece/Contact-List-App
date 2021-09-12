@@ -1,9 +1,10 @@
 #container{
     width: 400px;
-    background-color:#0097e6;
+    background-color:#16a5f1;
     padding: 20px;
     color: #fff;
     border-radius: 3px;
+    box-shadow: 0 4px 4px 2px #192a56;
 }
 
 input{
@@ -29,7 +30,7 @@ ul,li{
 }
 
 .list>li{
-    background-color: #16a5f1;
+    background-color:#0097e6;
     padding: 5px;
     margin-bottom: 2px;
     display: flex;
@@ -37,8 +38,7 @@ ul,li{
 }
 
 .btn{
-    display: flex;
-    justify-content:end;
+   
     padding: 5px 0 ;
 }
 
