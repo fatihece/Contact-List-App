@@ -1,7 +1,9 @@
 #container{
     width: 400px;
-    background-color:rgb(103, 95, 204);
+    background-color:#0097e6;
     padding: 20px;
+    color: #fff;
+    border-radius: 3px;
 }
 
 input{
@@ -10,6 +12,10 @@ input{
     padding: 5px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    margin-bottom: 5px;
 }
 
 ul,li{
@@ -23,7 +29,7 @@ ul,li{
 }
 
 .list>li{
-    background-color: rgb(155, 247, 247);
+    background-color: #16a5f1;
     padding: 5px;
     margin-bottom: 2px;
     display: flex;
@@ -40,4 +46,16 @@ ul,li{
 .btn button{
     padding: 5px;
     width: 60px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: black;
+    border: none;
+    outline: none;
+}
+
+.btn button:hover{
+    background-color:#4cd137;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
 }
