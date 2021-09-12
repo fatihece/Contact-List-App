@@ -6,16 +6,16 @@ import "./Contacts.css"
 const Contacts = () => {
     const [contact, setContact] = useState([
         {
-        fullname: "Fatih",
-        phone_number: "123123"
+        fullname: "Fatih Ece",
+        phone_number: "506 789 45 44"
         },
         {
-            fullname: "Ayşe",
-            phone_number:"456456"
+            fullname: "Ece Naz",
+            phone_number:"589 789 66 33"
         },
         {
-            fullname: "Nazlı",
-            phone_number:"47260"
+            fullname: "Gülce Nil",
+            phone_number:"403 22 22"
     }])
     
     useEffect(() => {
