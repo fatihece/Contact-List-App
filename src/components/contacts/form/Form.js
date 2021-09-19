@@ -1,6 +1,7 @@
-import React, { useState }from 'react'
+import React, { useState } from 'react';
 
-const initialFormValues = {fullname:"", phone_number:""}
+const initialFormValues = { fullname: "", phone_number: "" }
+
 const Form = ({setContact, contact}) => {
     const[form,setForm] = useState(initialFormValues)
 
