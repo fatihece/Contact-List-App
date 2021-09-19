@@ -2,7 +2,7 @@ import React, { useState }from 'react'
 
 const initialFormValues = {fullname:"", phone_number:""}
 const Form = ({setContact, contact}) => {
-const[form,setForm] = useState(initialFormValues)
+    const[form,setForm] = useState(initialFormValues)
 
     const onChangeInput = (e) => {
         setForm({...form, [e.target.name] : e.target.value})
