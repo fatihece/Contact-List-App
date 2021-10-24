@@ -27,7 +27,7 @@ const List = ({ contact }) => {
                 }
             </ul>
             
-            <p className="total">Total Contacts: {filtered.length }</p>
+            <p className="total">Total: {filtered.length }</p>
         </div>
     )
 }
